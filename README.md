@@ -24,4 +24,4 @@ This is my personal portfolio website showcasing my skills, projects, and experi
 Hosted on [GitHub Pages/Netlify/Vercel]. (Provide link)
 
 ## Acknowledgments
-Thanks to [Name/Resource] for inspiration and support.
+Thanks to UWI for inspiration and support.
