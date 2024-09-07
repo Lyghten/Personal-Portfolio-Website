@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>My Personal Portfolio</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>My Portfolio</h1>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="project">
+        <h3>My Personal Portfolio Website</h3>
+        <p>The Personal Portfolio Website is a fully responsive website, showcasing my skills, projects, 
+            and experiences as a software engineer. This website should serve as a way to give perspective 
+            into my work to a wide range of employers and clients, with a contact form powered by EmailJS 
+            that will reach directly to me. It shall be concentrated on clean aesthetics, intuitiveness in 
+            navigation, and an overall awesome user experience.</p>
+        <a href="link-to-project">View Project</a>
+    </div>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I'm a passionate software engineer with expertise in front-end and back-end development.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-list">
+            <!-- Add project items dynamically or statically -->
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+        <div id="response"></div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 My Portfolio</p>
+    </footer>
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>
